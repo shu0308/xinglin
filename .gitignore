@@ -1,0 +1,10 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.vsidx
+*.sqlite
+
+# OS files
+Thumbs.db
+.DS_Store
