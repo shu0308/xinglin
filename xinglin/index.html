@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>津南杏林健康科普站 - 津南区全民预防性健康服务平台</title>
+    <link rel="stylesheet" href="./css/common.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">跳到主要内容</a>
+
+    <div class="accessibility-strip">
+        <div class="container accessibility-inner">
+            <span class="assist-status">阅读辅助已开启</span>
+            <span class="assist-note">津南区全民预防性健康服务平台</span>
+            <div class="tool-bar" aria-label="阅读辅助工具">
+                <button type="button" onclick="biggerFont()">A+</button>
+                <button type="button" onclick="smallerFont()">A-</button>
+                <button type="button" onclick="toggleDark()">高对比</button>
+            </div>
+        </div>
+    </div>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="./index.html" aria-label="津南杏林健康科普站首页">
+                <span class="brand-mark">杏</span>
+                <span>
+                    <span class="brand-name">津南杏林健康科普站</span>
+                    <span class="brand-subtitle">连接社区 · 科普同行 · 健康共建</span>
+                </span>
+            </a>
+
+            <nav class="site-nav" aria-label="主导航">
+                <a class="is-active" href="./index.html">首页</a>
+                <a href="#assistants">AI助手</a>
+                <a href="#services">科普专区</a>
+                <a href="#notice">安全声明</a>
+            </nav>
+
+            <div class="header-actions">
+                <span class="school-badge" aria-label="南开大学校徽">
+                    <img src="./img/微信图片_20260716220226_131_164.png" alt="南开大学校徽">
+                </span>
+            </div>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="container hero">
+            <div>
+                <span class="eyebrow">社区健康科普 · 面向全年龄段</span>
+                <h1>把慢病用药、儿童健康和基层就医<span class="highlight">讲清楚</span></h1>
+                <p class="hero-text">
+                    面向津南居民和外来务工家庭，整理中老年慢病、青少年成长、家庭共育、基层就医和安全用药等科普内容。
+                </p>
+                <div class="hero-actions">
+                    <a class="button primary" href="#services">查看五大专区</a>
+                    <a class="button secondary" href="#assistants">进入AI助手</a>
+                </div>
+                <div class="hero-notes" aria-label="平台特点">
+                    <p class="note">不采集、不存储居民个人信息</p>
+                    <p class="note">AI仅作科普指引，不替代医生诊断</p>
+                    <p class="note">线下义诊服从社区和卫生院安排</p>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <img src="./img/community-health.svg" alt="社区健康科普插画">
+            </div>
+
+            <div class="hero-dots" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </section>
+
+        <section class="section" id="services">
+            <div class="container">
+                <div class="section-header center">
+                    <span class="eyebrow">健康科普服务专区</span>
+                    <h2>五个主题页面</h2>
+                    <p>围绕不同人群和家庭场景，提供清晰、可继续扩展的科普入口。</p>
+                </div>
+
+                <div class="card-grid service-grid">
+                    <a class="card" href="./pages/old.html">
+                        <span class="card-index">一</span>
+                        <h3>中老年健康科普专区</h3>
+                        <p>慢病安全用药、保健品防骗、防跌倒和本地健康防护。</p>
+                        <span class="text-link">进入专区 →</span>
+                    </a>
+                    <a class="card" href="./pages/child.html">
+                        <span class="card-index">二</span>
+                        <h3>青少年及少儿健康专区</h3>
+                        <p>营养、视力、意外伤害、口腔、皮肤和心理健康。</p>
+                        <span class="text-link">进入专区 →</span>
+                    </a>
+                    <a class="card" href="./pages/hospital.html">
+                        <span class="card-index">三</span>
+                        <h3>津南基层就医导航专区</h3>
+                        <p>基层服务、双向转诊、医保报销和错峰就医流程。</p>
+                        <span class="text-link">进入专区 →</span>
+                    </a>
+                    <a class="card" href="./pages/family.html">
+                        <span class="card-index">四</span>
+                        <h3>家庭健康共育知识库</h3>
+                        <p>家庭健康台账、信息同步、医保流程和生活习惯共建。</p>
+                        <span class="text-link">进入专区 →</span>
+                    </a>
+                    <a class="card" href="./pages/medicine.html">
+                        <span class="card-index">五</span>
+                        <h3>科普问答线上咨询板块</h3>
+                        <p>家庭常备用药、本地用药指引和慢病安全用药问答。</p>
+                        <span class="text-link">进入专区 →</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="assistants">
+            <div class="container">
+                <div class="section-header">
+                    <div>
+                        <span class="eyebrow">AI科普助手</span>
+                        <h2>四类常见问题入口</h2>
+                    </div>
+                    <p>这些入口目前使用占位链接，后续把真实平台地址替换到 <strong>#AI_PLATFORM_URL#</strong> 即可。</p>
+                </div>
+
+                <div class="card-grid">
+                    <a class="card" href="#AI_PLATFORM_URL#" target="_blank">
+                        <span class="card-index">01</span>
+                        <h3>中老年健康用药助手</h3>
+                        <p>慢病服药、药箱整理、保健品辨别等基础科普。</p>
+                        <span class="tag">待接入平台</span>
+                    </a>
+                    <a class="card" href="#AI_PLATFORM_URL#" target="_blank">
+                        <span class="card-index">02</span>
+                        <h3>青少年少儿健康咨询助手</h3>
+                        <p>成长发育、视力保护、意外伤害预防和心理健康。</p>
+                        <span class="tag">待接入平台</span>
+                    </a>
+                    <a class="card" href="#AI_PLATFORM_URL#" target="_blank">
+                        <span class="card-index">03</span>
+                        <h3>家庭健康共育沟通助手</h3>
+                        <p>帮助家庭成员同步体检、复诊、疫苗和用药信息。</p>
+                        <span class="tag">待接入平台</span>
+                    </a>
+                    <a class="card" href="#AI_PLATFORM_URL#" target="_blank">
+                        <span class="card-index">04</span>
+                        <h3>津南基层卫健转介助手</h3>
+                        <p>基层站点、转诊流程、医保备案和错峰就医指引。</p>
+                        <span class="tag">待接入平台</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="notice">
+            <div class="container">
+                <div class="section-header">
+                    <div>
+                        <span class="eyebrow">安全与边界</span>
+                        <h2>科普网站必须说清楚的事</h2>
+                    </div>
+                </div>
+                <div class="notice-panel">
+                    <div class="notice-item">
+                        <strong>个人信息</strong>
+                        <p>平台不采集、存储任何居民个人信息；网站覆盖中青年、青少年和中老年全人群科普。</p>
+                    </div>
+                    <div class="notice-item">
+                        <strong>线下活动</strong>
+                        <p>线下科普义诊优先安排早晚乘凉时段避开高温，活动时间服从当地政府统一调度。</p>
+                    </div>
+                    <div class="notice-item">
+                        <strong>影像素材</strong>
+                        <p>实拍照片、视频仅用于校内学术实践展示，拍摄前必须征得当事人许可。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <button class="back-top" type="button" onclick="backTop()">返回顶部</button>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div>
+                <strong>津南杏林健康科普站</strong>
+                <p>科普内容仅供学习和健康教育使用，不能替代医生诊断和治疗建议。</p>
+            </div>
+            <div>
+                <strong>使用建议</strong>
+                <p>如有急症、重症或持续不适，请及时联系社区基层卫健站点或正规医疗机构。</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/tool.js"></script>
+</body>
+</html>

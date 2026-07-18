@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" role="img" aria-labelledby="title desc">
+  <title id="title">Community health science illustration</title>
+  <desc id="desc">A friendly community clinic, health cards, and people receiving health guidance.</desc>
+  <rect width="900" height="640" fill="#f1f7f3"/>
+  <path d="M70 506c78-95 152-126 232-102 54 16 90 62 150 51 87-15 111-123 221-114 67 6 121 56 157 165v82H70z" fill="#d9ece4"/>
+  <rect x="92" y="132" width="386" height="340" rx="20" fill="#ffffff" stroke="#b7d6cc" stroke-width="4"/>
+  <rect x="132" y="198" width="306" height="58" rx="12" fill="#0f6f63"/>
+  <rect x="132" y="290" width="118" height="102" rx="14" fill="#e7f0f8"/>
+  <rect x="278" y="290" width="160" height="22" rx="11" fill="#b7d6cc"/>
+  <rect x="278" y="330" width="128" height="18" rx="9" fill="#dbe6df"/>
+  <rect x="278" y="366" width="144" height="18" rx="9" fill="#dbe6df"/>
+  <path d="M269 160h32v22h22v32h-22v22h-32v-22h-22v-32h22z" fill="#ffffff"/>
+  <rect x="568" y="112" width="236" height="148" rx="18" fill="#ffffff" stroke="#b7d6cc" stroke-width="4"/>
+  <path d="M606 160h94" stroke="#0f6f63" stroke-width="16" stroke-linecap="round"/>
+  <path d="M606 204h150" stroke="#dbe6df" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="754" cy="166" r="28" fill="#d66f36"/>
+  <rect x="550" y="314" width="286" height="178" rx="22" fill="#ffffff" stroke="#b7d6cc" stroke-width="4"/>
+  <path d="M590 368h130" stroke="#2f6f9f" stroke-width="18" stroke-linecap="round"/>
+  <path d="M590 416h206" stroke="#dbe6df" stroke-width="14" stroke-linecap="round"/>
+  <path d="M590 452h168" stroke="#dbe6df" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="210" cy="478" r="46" fill="#f0b58a"/>
+  <path d="M128 586c10-55 42-84 82-84s72 29 82 84z" fill="#0f6f63"/>
+  <circle cx="388" cy="490" r="42" fill="#f0b58a"/>
+  <path d="M312 586c9-48 38-74 76-74s67 26 76 74z" fill="#2f6f9f"/>
+  <circle cx="654" cy="532" r="34" fill="#f0b58a"/>
+  <path d="M592 586c8-38 31-58 62-58s54 20 62 58z" fill="#d66f36"/>
+</svg>
